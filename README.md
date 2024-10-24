@@ -53,3 +53,11 @@ If you use this work, please cite the following:
       url={https://arxiv.org/abs/2410.07981}, 
 }
 ```
+
+## Contact
+
+If you have any issues with running the code or the implementation, please either open a GitHub issue, or contact me at 
+
+```bash
+echo "manogm.irli.tto-nurei.stturtttdg.de" | sed 's/-/@/1; s/nurei.stturtttdg/ki.uni-stuttgart/; s/manogm.irli.tto/andrei.manolache/'
+```
