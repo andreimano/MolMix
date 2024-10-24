@@ -45,7 +45,7 @@ Additionally, various parts of the code are adapted from the [MARCEL repository]
 If you use this work, please cite the following:
 
 ```bibtex
-@misc{manolache2024molmixsimpleeffectivebaseline,
+@misc{manolache2024molmix,
       title={MolMix: A Simple Yet Effective Baseline for Multimodal Molecular Representation Learning}, 
       author={Andrei Manolache and Dragos Tantaru and Mathias Niepert},
       year={2024},
