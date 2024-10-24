@@ -1,0 +1,45 @@
+wandb:
+    use_wandb: true
+    project: YOUR_WANDB_PROJECT
+    entity: YOUR_WANDB_ENTITY
+    name: YOUR_WANDB_NAME
+
+debug: false
+
+ckpt: false
+
+dataset: kraken_B5
+data_path: ./datasets
+batch_size: 16
+lr: 3.e-4
+weight_decay: 0.01
+num_runs: 5
+max_epoch: 2000
+min_epoch: 500
+patience: 200
+
+scheduler_type: none
+scheduler_patience: 25
+eval_test: true
+
+use_smiles: false
+use_2d: true
+use_3d: false
+
+norm_target: true
+
+n_conformers: 5
+
+model:
+    new_arch: false
+    n_gnn_layers: 6
+    hidden_dim: 128
+    tf_hidden_dim: 512
+    n_tf_heads: 8
+    n_tf_layers: 6
+    tf_dropout: 0.05
+    agg_tf_heads: 4
+    agg_tf_layers: 2
+    model_3d: "schnet"
+    avg_agg: false
+

@@ -1,0 +1,41 @@
+wandb:
+    use_wandb: false
+    project: YOUR_WANDB_PROJECT
+    entity: YOUR_WANDB_ENTITY
+    name: YOUR_WANDB_NAME
+
+ckpt: false
+
+dataset: esol
+data_path: ./datasets
+batch_size: 128
+lr: 1.e-4
+weight_decay: 0.01
+debug: false
+num_runs: 1
+max_epoch: 1500
+min_epoch: 200
+patience: 200
+
+scheduler_type: plateau
+scheduler_patience: 10
+eval_test: true
+
+grad_clip_val: 1.0
+
+multimodal: true
+
+separate_readout: false
+
+
+model:
+    n_gnn_layers: 15
+    hidden_dim: 192
+    n_tf_heads: 8
+    n_tf_layers: 4
+    tf_dropout: 0.1
+    agg_tf_heads: 4
+    agg_tf_layers: 2
+    model_3d: "schnet"
+    centroids2token: false
+    
